@@ -16,6 +16,7 @@ func checkSanity(list *SkipList, t *testing.T) {
     // each level must be correctly ordered
     for k, v := range list.next {
         //t.Log("Level", k)
+        //test
 
         if v == nil {
             continue
